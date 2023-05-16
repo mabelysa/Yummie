@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Recipe Hub">e75807da2f36211031dc5fd92799b645</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 19:23:08</sys_created_on>
+        <sys_id>a429cfda2f36211031dc5fd92799b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recipe Hub.catalog_recipe_hub</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_recipe_hub">ac29cfda2f36211031dc5fd92799b6e9</sys_portal_page>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_a429cfda2f36211031dc5fd92799b6eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 19:23:08</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
