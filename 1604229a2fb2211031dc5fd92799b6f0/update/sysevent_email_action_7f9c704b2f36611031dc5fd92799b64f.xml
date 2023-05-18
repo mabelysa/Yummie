@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Employee Appreciation" name="Employee Appreciation">445d788b2f36611031dc5fd92799b66e</category>
+        <collection>sys_user</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>New Employee Welcome Email</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>welcome@yummie.com</from>
+        <generation_type>engine</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 10pt;"><strong><img style="display: block; margin-left: auto; margin-right: auto;" title="Yummie Logo.png" src="/sys_attachment.do?sys_id=c02885072f76611031dc5fd92799b6c0" alt="" width="100" height="100" /></strong></span></p>
+<p style="text-align: center;"><span style="font-size: 18pt; font-family: 'comic sans ms', sans-serif; color: #000000;"><strong>Welcome to the Yummie Squad!</strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 10pt; font-family: 'comic sans ms', sans-serif;">We are so glad to have you here. We are looking forward to accomplishing amazing things with you on our team.&nbsp;</span></p>
+<p><span style="font-size: 10pt; font-family: 'comic sans ms', sans-serif;">You are a rockstar!</span></p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Welcome to the Yummie Squad</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Yummie Employees">dbab704b2f36611031dc5fd92799b67c</recipient_groups>
+        <recipient_users/>
+        <reply_to>noreply@noreplymail.com</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Welcome to the Yummie Squad!</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-18 17:16:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f9c704b2f36611031dc5fd92799b64f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Welcome to the Yummie Squad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sysevent_email_action_7f9c704b2f36611031dc5fd92799b64f</sys_update_name>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-18 17:57:45</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>100</weight>
+    </sysevent_email_action>
+</record_update>
