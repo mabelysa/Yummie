@@ -12,17 +12,8 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><span style="font-size: 12pt;"><strong>Ingredients</strong></span></p>
-<ul style="list-style-type: none; list-style-position: inside;"><li style="list-style-type: none;"><input id="wprm-checkbox-0" type="checkbox" /><label for="wprm-checkbox-0"></label>4 pieces bacon</li><li style="list-style-type: none;"><input id="wprm-checkbox-1" type="checkbox" /><label for="wprm-checkbox-1"></label>2 green onions, sliced, with green and white parts separated</li><li style="list-style-type: none;"><input id="wprm-checkbox-2" type="checkbox" /><label for="wprm-checkbox-2"></label>1 tablespoon olive oil</li><li style="list-style-type: none;"><input id="wprm-checkbox-3" type="checkbox" /><label for="wprm-checkbox-3"></label>4 large eggs</li><li style="list-style-type: none;"><input id="wprm-checkbox-4" type="checkbox" /><label for="wprm-checkbox-4"></label>1/2 cup shredded cheddar cheese</li><li style="list-style-type: none;"><input id="wprm-checkbox-5" type="checkbox" /><label for="wprm-checkbox-5"></label>salt and pepper</li><li style="list-style-type: none;"><input id="wprm-checkbox-6" type="checkbox" /><label for="wprm-checkbox-6"></label>1/2 avocado, small diced</li><li style="list-style-type: none;"><input id="wprm-checkbox-7" type="checkbox" /><label for="wprm-checkbox-7"></label>2 tablespoons chopped cilantro</li><li style="list-style-type: none;"><input id="wprm-checkbox-8" type="checkbox" /><label for="wprm-checkbox-8"></label>4 tortillas</li></ul>
-<p><span style="font-size: 12pt;"><strong>Instructions</strong></span></p>
-<p>1) Preheat your oven to 400F/200C. Place the bacon on a baking tray and bake for 18-20 minutes, or until crispy. Let dry on a paper towel. Heat the olive oil in a pan on medium heat, add the the white parts of the green onion and saute for 1 minute.</p>
-<p>2) </p>
-<p>3) Whisk together the eggs in a bowl, then pour the beaten eggs in the pan. Use a spatula to move the eggs while they cook, flipping them a few times, until they&#39;re soft and pillowy yet cooked through.</p>
-<p>4) Assemble the breakfast tacos by adding a portion of eggs to a tortilla. Top that with a sprinkle of the green parts of the green onion, several pieces of crumbled bacon, diced avocado, a sprinkle of cheddar cheese, and fresh cilantro. Season with salt and pepper.</p>
-<p><span style="font-size: 12pt;"><strong>Nutrition</strong></span></p>
-<p>CALORIES: 375kcal, CARBOHYDRATES: 19g, PROTEIN: 15g, FAT: 27g, SATURATED FAT: 9g, CHOLESTEROL: 193mg, SODIUM: 505mg, POTASSIUM: 302mg, FIBER: 3g, SUGAR: 2g, VITAMIN A: 489iu, VITAMIN C: 4mg, CALCIUM: 166mg, IRON: 2mg</p>
-<p>COURSE: breakfast</p>
-<p>CUISINE: american</p>
-<div>KEYWORD: breakfast tacos, breakfast tacos recipe, taco recipe</div>]]></description>
+<ul style="list-style-type: none; list-style-position: inside;"><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-0" type="checkbox" /><label for="wprm-checkbox-0"></label>4 pieces bacon</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-1" type="checkbox" /><label for="wprm-checkbox-1"></label>2 green onions, sliced, with green and white parts separated</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-2" type="checkbox" /><label for="wprm-checkbox-2"></label>1 tablespoon olive oil</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-3" type="checkbox" /><label for="wprm-checkbox-3"></label>4 large eggs</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-4" type="checkbox" /><label for="wprm-checkbox-4"></label>1/2 cup shredded cheddar cheese</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-5" type="checkbox" /><label for="wprm-checkbox-5"></label>salt and pepper</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-6" type="checkbox" /><label for="wprm-checkbox-6"></label>1/2 avocado, small diced</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-7" type="checkbox" /><label for="wprm-checkbox-7"></label>2 tablespoons chopped cilantro</span></li><li style="list-style-type: none; font-size: 12pt;"><span style="font-size: 12pt;"><input id="wprm-checkbox-8" type="checkbox" /><label for="wprm-checkbox-8"></label>4 tortillas</span></li></ul>
+<div> </div>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -40,7 +31,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Breakfast Tacos (Bacon, Egg &amp; Avocado)</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -75,14 +66,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-16 19:41:16</sys_created_on>
         <sys_id>ca4a875e2f36211031dc5fd92799b60a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Breakfast Tacos (Bacon, Egg &amp; Avocado)</sys_name>
         <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
         <sys_update_name>sc_cat_item_ca4a875e2f36211031dc5fd92799b60a</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-17 15:47:07</sys_updated_on>
+        <sys_updated_on>2023-05-18 19:38:14</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

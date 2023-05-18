@@ -4,15 +4,15 @@
         <sc_catalog display_value="Recipe Hub">e75807da2f36211031dc5fd92799b645</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-16 19:45:06</sys_created_on>
-        <sys_id>562ecf122f76211031dc5fd92799b678</sys_id>
+        <sys_created_on>2023-05-18 16:30:23</sys_created_on>
+        <sys_id>e5c43c432f36611031dc5fd92799b6d6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Recipe Hub.Breakfast Tacos (Bacon, Egg &amp; Avocado)</sys_name>
         <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_562ecf122f76211031dc5fd92799b678</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_e5c43c432f36611031dc5fd92799b6d6</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-17 15:47:06</sys_updated_on>
+        <sys_updated_on>2023-05-18 19:38:13</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>
