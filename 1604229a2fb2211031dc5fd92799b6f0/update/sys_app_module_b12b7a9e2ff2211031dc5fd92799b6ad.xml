@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Yummie App">f52b3a1a2ff2211031dc5fd92799b630</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1022112_yummie_meal_time_of_the_day</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 18:22:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b12b7a9e2ff2211031dc5fd92799b6ad</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sys_app_module_b12b7a9e2ff2211031dc5fd92799b6ad</sys_update_name>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 05:21:57</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name>New Order</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>/*  Removes the white space between the Header and Container 1  */
+section.page, main.body {
+  padding-top: 0px !important;
+}
+
+h3 {
+  color: #323232; 
+}
+
+.paddingtop_20 {
+  padding-top: 20px; 
+}
+
+.cdWidgetTitleBar {
+  background-color: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px 0px 0px 15px;
+  font-size: 120%;
+}
+
+.cdWidgetContentArea {
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 0px 0px 5px 5px;
+  padding: 15px;
+  margin-bottom: 18px;
+}
+
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>yummie_index</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-19 23:47:22</sys_created_on>
+        <sys_id>ec62a75b2ff6211031dc5fd92799b654</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>yummie_index</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_page_ec62a75b2ff6211031dc5fd92799b654</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 02:36:08</sys_updated_on>
+        <title>Yummie</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec62a75b2ff6211031dc5fd92799b654"/>
+</record_update>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Yummie Meal Kit Order" section_id="77bbfe9e2ff2211031dc5fd92799b6b3" sys_domain="global" table="x_1022112_yummie_meal_time_of_the_day" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_first_name</element>
+            <position>0</position>
+            <sys_created_by>jeffte.meneus</sys_created_by>
+            <sys_created_on>2023-05-22 19:49:19</sys_created_on>
+            <sys_id>2aa88e102f87211031dc5fd92799b664</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Yummie Meal Kit Order" display_value="Yummie Meal Kit Order" name="x_1022112_yummie_meal_time_of_the_day" sys_domain="global" view="Default view">77bbfe9e2ff2211031dc5fd92799b6b3</sys_ui_section>
+            <sys_updated_by>jeffte.meneus</sys_updated_by>
+            <sys_updated_on>2023-05-22 19:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_last_name</element>
+            <position>1</position>
+            <sys_created_by>jeffte.meneus</sys_created_by>
+            <sys_created_on>2023-05-22 19:49:19</sys_created_on>
+            <sys_id>62a88e102f87211031dc5fd92799b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Yummie Meal Kit Order" display_value="Yummie Meal Kit Order" name="x_1022112_yummie_meal_time_of_the_day" sys_domain="global" view="Default view">77bbfe9e2ff2211031dc5fd92799b6b3</sys_ui_section>
+            <sys_updated_by>jeffte.meneus</sys_updated_by>
+            <sys_updated_on>2023-05-22 19:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_1</element>
+            <position>2</position>
+            <sys_created_by>jeffte.meneus</sys_created_by>
+            <sys_created_on>2023-05-22 19:49:19</sys_created_on>
+            <sys_id>66a88e102f87211031dc5fd92799b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Yummie Meal Kit Order" display_value="Yummie Meal Kit Order" name="x_1022112_yummie_meal_time_of_the_day" sys_domain="global" view="Default view">77bbfe9e2ff2211031dc5fd92799b6b3</sys_ui_section>
+            <sys_updated_by>jeffte.meneus</sys_updated_by>
+            <sys_updated_on>2023-05-22 19:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>jeffte.meneus</sys_created_by>
+            <sys_created_on>2023-05-22 19:49:19</sys_created_on>
+            <sys_id>6aa88e102f87211031dc5fd92799b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Yummie Meal Kit Order" display_value="Yummie Meal Kit Order" name="x_1022112_yummie_meal_time_of_the_day" sys_domain="global" view="Default view">77bbfe9e2ff2211031dc5fd92799b6b3</sys_ui_section>
+            <sys_updated_by>jeffte.meneus</sys_updated_by>
+            <sys_updated_on>2023-05-22 19:49:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>jeffte.meneus</sys_created_by>
+            <sys_created_on>2023-05-22 19:49:19</sys_created_on>
+            <sys_id>7ea88e102f87211031dc5fd92799b665</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Yummie Meal Kit Order" display_value="Yummie Meal Kit Order" name="x_1022112_yummie_meal_time_of_the_day" sys_domain="global" view="Default view">77bbfe9e2ff2211031dc5fd92799b6b3</sys_ui_section>
+            <sys_updated_by>jeffte.meneus</sys_updated_by>
+            <sys_updated_on>2023-05-22 19:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_date</element>
+            <position>5</position>
+            <sys_created_by>jeffte.meneus</sys_created_by>
+            <sys_created_on>2023-05-22 19:49:19</sys_created_on>
+            <sys_id>72a88e102f87211031dc5fd92799b666</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Yummie Meal Kit Order" display_value="Yummie Meal Kit Order" name="x_1022112_yummie_meal_time_of_the_day" sys_domain="global" view="Default view">77bbfe9e2ff2211031dc5fd92799b6b3</sys_ui_section>
+            <sys_updated_by>jeffte.meneus</sys_updated_by>
+            <sys_updated_on>2023-05-22 19:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order_status</element>
+            <position>6</position>
+            <sys_created_by>jeffte.meneus</sys_created_by>
+            <sys_created_on>2023-05-22 19:49:19</sys_created_on>
+            <sys_id>76a88e102f87211031dc5fd92799b666</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Yummie Meal Kit Order" display_value="Yummie Meal Kit Order" name="x_1022112_yummie_meal_time_of_the_day" sys_domain="global" view="Default view">77bbfe9e2ff2211031dc5fd92799b6b3</sys_ui_section>
+            <sys_updated_by>jeffte.meneus</sys_updated_by>
+            <sys_updated_on>2023-05-22 19:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Yummie Meal Kit Order</caption>
+            <header>false</header>
+            <name>x_1022112_yummie_meal_time_of_the_day</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>evelyn.stewart</sys_created_by>
+            <sys_created_on>2023-05-16 18:24:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77bbfe9e2ff2211031dc5fd92799b6b3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_1022112_yummie_meal_time_of_the_day</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+            <sys_update_name>sys_ui_section_77bbfe9e2ff2211031dc5fd92799b6b3</sys_update_name>
+            <sys_updated_by>evelyn.stewart</sys_updated_by>
+            <sys_updated_on>2023-05-19 17:54:29</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -33,8 +33,8 @@
         <name>Breakfast Tacos (Bacon, Egg &amp; Avocado)</name>
         <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
-        <no_cart_v2>true</no_cart_v2>
-        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
@@ -66,14 +66,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-16 19:41:16</sys_created_on>
         <sys_id>ca4a875e2f36211031dc5fd92799b60a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Breakfast Tacos (Bacon, Egg &amp; Avocado)</sys_name>
         <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
         <sys_update_name>sc_cat_item_ca4a875e2f36211031dc5fd92799b60a</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-05-18 20:29:25</sys_updated_on>
+        <sys_updated_by>keith.witherspoon</sys_updated_by>
+        <sys_updated_on>2023-05-23 15:19:27</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

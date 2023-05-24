@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Stuffed Peppers">bec2fae42f83211031dc5fd92799b64f</sc_cat_item>
+        <sc_category display_value="Lunch">3359031e2f36211031dc5fd92799b654</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>keith.witherspoon</sys_created_by>
+        <sys_created_on>2023-05-23 17:31:52</sys_created_on>
+        <sys_id>36c27a682f83211031dc5fd92799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lunch.Stuffed Peppers</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sc_cat_item_category_36c27a682f83211031dc5fd92799b651</sys_update_name>
+        <sys_updated_by>keith.witherspoon</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:31:52</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

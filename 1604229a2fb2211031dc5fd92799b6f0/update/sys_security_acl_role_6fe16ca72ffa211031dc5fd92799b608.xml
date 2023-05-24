@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-20 04:25:01</sys_created_on>
+        <sys_id>6fe16ca72ffa211031dc5fd92799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1022112_yummie_packaging.x_1022112_yummie.packager</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_security_acl display_value="x_1022112_yummie_packaging">67e16ca72ffa211031dc5fd92799b606</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6fe16ca72ffa211031dc5fd92799b608</sys_update_name>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 04:25:01</sys_updated_on>
+        <sys_user_role display_value="x_1022112_yummie.packager" name="x_1022112_yummie.packager">83e1a0a72ffa211031dc5fd92799b633</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

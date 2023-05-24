@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement_style">
+    <announcement_style action="INSERT_OR_UPDATE">
+        <alignment>left</alignment>
+        <background_color>#FFA500</background_color>
+        <foreground_color>#fff2ea</foreground_color>
+        <name>Yummie In a Hurry</name>
+        <sys_class_name>announcement_style</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-22 20:43:36</sys_created_on>
+        <sys_id>2ba00e182f47211031dc5fd92799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Yummie In a Hurry</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>announcement_style_2ba00e182f47211031dc5fd92799b645</sys_update_name>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:43:36</sys_updated_on>
+    </announcement_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ba00e182f47211031dc5fd92799b645"/>
+</record_update>

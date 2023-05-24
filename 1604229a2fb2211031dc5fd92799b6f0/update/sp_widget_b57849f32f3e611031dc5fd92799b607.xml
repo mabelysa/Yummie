@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.footerStyle {
+  width: 100%;
+  background-color: #000000;
+  color: $cloud-CloudWhite;
+  text-align: center;
+  font-size: 125%;
+  margin-left: auto; 
+  margin-right: auto;
+  padding-top: 25px;
+}
+
+.contactIT {
+  width: 275px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.contactSecurity {
+  width: 275px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.copyright {
+  width: 400px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.social {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  font-size: 150%;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>yummie_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Yummie Footer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 01:51:51</sys_created_on>
+        <sys_id>b57849f32f3e611031dc5fd92799b607</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Yummie Footer</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_widget_b57849f32f3e611031dc5fd92799b607</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 01:54:46</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <div class="footerStyle">
+  
+  <div class="contactIT">
+    <p><strong>CONTACT IT</strong></p>
+    <p>Americas: +1 XXX 555 1234</p>
+    <p>EMEA: +XX 55 555 1234</p>
+    <p>APAC: +XX 55 555 1234</p>
+  </div>
+  
+  <div class="contactSecurity">
+    <p><strong>CONTACT SECURITY</strong></p>
+    <p>Americas: +1 XXX 555 4321</p>
+    <p>EMEA: +XX 55 555 4321</p>
+    <p>APAC: +XX 55 555 4321</p>
+  </div>
+  
+  <div class="copyright">
+    <p>&copy 2022 ServiceNow Inc. All Rights Reserved</p>
+  </div>
+  
+  <div class="social" id="footer">
+    <a class="fa fa-linkedin" href="https://www.linkedin.com/company/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-twitter" href="https://www.twitter.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-youtube" href="https://www.youtube.com/servicenowinc" target="_blank"></a> &nbsp
+    <a class="fa fa-facebook" href="https://www.facebook.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-power-off" href="https://community.servicenow.com" target="_blank"></a>
+  </div>
+  
+</div>
+
+
+</div>]]></template>
+    </sp_widget>
+</record_update>
