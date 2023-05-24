@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ai_search_source_filter display_value="Service Portal Knowledge Bases">eb77cac5772300102d71af6168106160</ai_search_source_filter>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application display_value="Quick Action - KB Search ">492f958dc30101103f4fcd7b7940dd2a</search_application>
+        <search_results_configuration/>
+        <short_description>Search for breakfast, lunch, dinner, and dessert meal kits here.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">0282af9b2ff6211031dc5fd92799b6b7</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 01:42:56</sys_created_on>
+        <sys_id>8b66c1732f3e611031dc5fd92799b643</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Tummie's hungry? Search here in Yummie!</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_ais_8b66c1732f3e611031dc5fd92799b643</sys_update_name>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-24 03:41:10</sys_updated_on>
+        <title>Tummie's hungry? Search here in Yummie!</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "Mouthwatering Recipes Await. Start your Yummie Journey Here!",
+		"displayValue": "Mouthwatering Recipes Await. Start your Yummie Journey Here!"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b66c1732f3e611031dc5fd92799b643"/>
+</record_update>
