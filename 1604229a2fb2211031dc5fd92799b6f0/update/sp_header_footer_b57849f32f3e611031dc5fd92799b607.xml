@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.footerStyle {&#13;
+  width: 100%;&#13;
+  background-color: #000000;&#13;
+  color: $cloud-CloudWhite;&#13;
+  text-align: center;&#13;
+  font-size: 125%;&#13;
+  margin-left: auto; &#13;
+  margin-right: auto;&#13;
+  padding-top: 25px;&#13;
+}&#13;
+&#13;
+.contactIT {&#13;
+  width: 275px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.contactSecurity {&#13;
+  width: 275px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.copyright {&#13;
+  width: 400px;&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+}&#13;
+&#13;
+.social {&#13;
+  display: inline-block;&#13;
+  text-align: left;&#13;
+  vertical-align: top;&#13;
+  font-size: 150%;&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>yummie_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Yummie Footer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 01:51:51</sys_created_on>
+        <sys_id>b57849f32f3e611031dc5fd92799b607</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Yummie Footer</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_header_footer_b57849f32f3e611031dc5fd92799b607</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 08:25:49</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <div class="footerStyle">
+  
+  <div class="YummieSupport">
+    <p><strong>CONTACT YUMMIE SUPPORT</strong></p>
+    <p>281 330 8004</p>
+  </div>
+  
+  <div class="copyright">
+    <p>&copy 2023 Legendary LLC. All Rights Reserved</p>
+  </div>
+  
+  <div class="social" id="footer">
+    <a class="fa fa-linkedin" href="https://www.linkedin.com/company/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-instagram" href="https://www.instagram.com/lifeatnow" target="_blank"></a> &nbsp
+    <a class="fa fa-twitter" href="https://www.twitter.com/servicenow" target="_blank"></a> &nbsp
+    <a class="fa fa-youtube" href="https://www.youtube.com/servicenowinc" target="_blank"></a> &nbsp
+    <a class="fa fa-facebook" href="https://www.facebook.com/servicenow" target="_blank"></a> &nbsp
+  </div>
+  
+</div>
+
+
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

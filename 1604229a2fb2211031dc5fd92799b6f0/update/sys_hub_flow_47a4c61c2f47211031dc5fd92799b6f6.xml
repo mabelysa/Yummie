@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Automation Flow for customer's order notifications
+</description>
+        <internal_name>yummie_orders_flow__2</internal_name>
+        <label_cache>[{"name":"40d7226f-effa-4ba0-9b6a-1d3c2a88a4f1.__dont_treat_as_error__","label":"3 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40d7226f-effa-4ba0-9b6a-1d3c2a88a4f1.__action_status__","label":"3 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.Table","label":"2 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.Record","label":"2 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.Table","label":"2 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.Record","label":"2 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_reference_1.email","label":"Trigger - Record Created➛Meal Time of the Day Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.u_reference_1","label":"Trigger - Record Created➛Meal Time of the Day Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1022112_yummie_meal_time_of_the_day","column_name":"u_reference_1"},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.Table","label":"2 - Create Task➛Meal Time of the Day Table","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.Record","label":"2 - Create Task➛Meal Time of the Day Record","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.Table","label":"2 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.Record","label":"2 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.customer_first_name","label":"Trigger - Record Created➛Meal Time of the Day Record➛Yummie User First Name","reference":"","reference_display":"Yummie User First Name","type":"string","base_type":"string","parent_table_name":"x_1022112_yummie_meal_time_of_the_day","column_name":"customer_first_name"},{"name":"4b595c01-5b1b-40e6-83a7-0bdea6571664.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b595c01-5b1b-40e6-83a7-0bdea6571664.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b595c01-5b1b-40e6-83a7-0bdea6571664.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Meal Time of the Day Record","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"reference","base_type":"reference","attributes":{}},{"name":"f362e957-8aa8-44bf-923f-c1ce8ff76b18.__dont_treat_as_error__","label":"1 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f362e957-8aa8-44bf-923f-c1ce8ff76b18.__action_status__","label":"1 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Meal Time of the Day Table","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"7b4e3e39-4371-4246-bb88-347c18e09ed6.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b4e3e39-4371-4246-bb88-347c18e09ed6.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b4e3e39-4371-4246-bb88-347c18e09ed6.__dont_treat_as_error__","label":"2 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Meal Time of the Day Record➛State","reference":"","reference_display":"State","type":"string","base_type":"string","parent_table_name":"x_1022112_yummie_meal_time_of_the_day","column_name":"state"},{"name":"373764e5-b490-4bfa-bd15-b674de6cabf4.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"373764e5-b490-4bfa-bd15-b674de6cabf4.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"373764e5-b490-4bfa-bd15-b674de6cabf4.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.e3f89e0d2f72211031dc5fd92799b661}}","label":"Jeffte Meneus","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
+        <master_snapshot>bd731ed82f87211031dc5fd92799b69a</master_snapshot>
+        <name>Yummie Notification Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>d13cb4d92f43211031dc5fd92799b6c3</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:31:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>47a4c61c2f47211031dc5fd92799b6f6</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Yummie Notification Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sys_hub_flow_47a4c61c2f47211031dc5fd92799b6f6</sys_update_name>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1022112_yummie_meal_time_of_the_day">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-25 16:49:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d13cb4d92f43211031dc5fd92799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <table>x_1022112_yummie_meal_time_of_the_day</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>47a4c61c2f47211031dc5fd92799b6f6</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-25 16:49:12</sys_created_on>
+        <sys_id>9d3cb4d92f43211031dc5fd92799b6c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <trigger display_value="">d13cb4d92f43211031dc5fd92799b6c3</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=47a4c61c2f47211031dc5fd92799b6f6^sys_idNOT IN9d3cb4d92f43211031dc5fd92799b6c3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=47a4c61c2f47211031dc5fd92799b6f6^sys_idNOT IN26a94e502f87211031dc5fd92799b6c2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Yummie Notification Flow">47a4c61c2f47211031dc5fd92799b6f6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:41</sys_created_on>
+        <sys_id>26a94e502f87211031dc5fd92799b6c2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=26a94e502f87211031dc5fd92799b6c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>26a94e502f87211031dc5fd92799b6c2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:41</sys_created_on>
+        <sys_id>a2a94e502f87211031dc5fd92799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:53:41</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>26a94e502f87211031dc5fd92799b6c2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:41</sys_created_on>
+        <sys_id>aaa94e502f87211031dc5fd92799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:53:41</sys_updated_on>
+        <value>x_1022112_yummie_meal_time_of_the_day</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=47a4c61c2f47211031dc5fd92799b6f6^sys_idNOT IN43a4c61c2f47211031dc5fd92799b6f7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>47a4c61c2f47211031dc5fd92799b6f6</id>
+        <name>Yummie Orders Flow - 2</name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:31:52</sys_created_on>
+        <sys_id>43a4c61c2f47211031dc5fd92799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:31:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=43a4c61c2f47211031dc5fd92799b6f7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=47a4c61c2f47211031dc5fd92799b6f6^sys_idNOT INaaa94e502f87211031dc5fd92799b6b8,eaa94e502f87211031dc5fd92799b6bc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Yummie Notification Flow">47a4c61c2f47211031dc5fd92799b6f6</model>
+        <model_id>47a4c61c2f47211031dc5fd92799b6f6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_47a4c61c2f47211031dc5fd92799b6f6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:40</sys_created_on>
+        <sys_id>aaa94e502f87211031dc5fd92799b6b8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Yummie Notification Flow">47a4c61c2f47211031dc5fd92799b6f6</model>
+        <model_id>47a4c61c2f47211031dc5fd92799b6f6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_47a4c61c2f47211031dc5fd92799b6f6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:40</sys_created_on>
+        <sys_id>eaa94e502f87211031dc5fd92799b6bc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=47a4c61c2f47211031dc5fd92799b6f6^sys_idNOT INaaa94e502f87211031dc5fd92799b6e3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Yummie Notification Flow">47a4c61c2f47211031dc5fd92799b6f6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:41</sys_created_on>
+        <sys_id>aaa94e502f87211031dc5fd92799b6e3</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <ui_id>4b595c01-5b1b-40e6-83a7-0bdea6571664</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aaa94e502f87211031dc5fd92799b6e3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aaa94e502f87211031dc5fd92799b6e3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:56:22</sys_created_on>
+        <sys_id>0e4ac6902f87211031dc5fd92799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:56:22</sys_updated_on>
+        <value>x_1022112_yummie_meal_time_of_the_day</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aaa94e502f87211031dc5fd92799b6e3</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:26:21</sys_created_on>
+        <sys_id>5521d6582f87211031dc5fd92799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:26:21</sys_updated_on>
+        <value>&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Dear Customer,&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Thank you for choosing Yummie! This email is to confirm the receipt of your recent order. We appreciate your business and are excited to fulfill your order.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Please note that this email serves as confirmation that we have received your order and that it is being processed. We will notify you separately once your order has been shipped.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;If you have any questions or concerns regarding your order, please feel free to reach out to our customer support team at hello&amp;#64;yummie.legendaryllc.com. We will be happy to assist you.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Thank you again for your purchase. We truly value your business and look forward to serving you again in the future.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Best regards,&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aaa94e502f87211031dc5fd92799b6e3</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:26:21</sys_created_on>
+        <sys_id>5d21d6582f87211031dc5fd92799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:26:21</sys_updated_on>
+        <value>Yummie - Order Out for Delivery</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aaa94e502f87211031dc5fd92799b6e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>aaa94e502f87211031dc5fd92799b6e3</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:26:21</sys_created_on>
+        <sys_id>1d21d6582f87211031dc5fd92799b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>aaa94e502f87211031dc5fd92799b6e3</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:26:21</sys_created_on>
+        <sys_id>d121d6582f87211031dc5fd92799b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>aaa94e502f87211031dc5fd92799b6e3</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:41</sys_created_on>
+        <sys_id>66a94e502f87211031dc5fd92799b6e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:26:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.u_reference_1.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>aaa94e502f87211031dc5fd92799b6e3</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:56:22</sys_created_on>
+        <sys_id>c64ac6902f87211031dc5fd92799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:56:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>aaa94e502f87211031dc5fd92799b6e3</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:56:22</sys_created_on>
+        <sys_id>8a4ac6902f87211031dc5fd92799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:56:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aaa94e502f87211031dc5fd92799b6e3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aaa94e502f87211031dc5fd92799b6e3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_47a4c61c2f47211031dc5fd92799b6f6^sys_idNOT IN22a94e502f87211031dc5fd92799b6bf,2ea94e502f87211031dc5fd92799b6bb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47a4c61c2f47211031dc5fd92799b6f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:40</sys_created_on>
+        <sys_id>22a94e502f87211031dc5fd92799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:53:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_47a4c61c2f47211031dc5fd92799b6f6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 19:53:40</sys_created_on>
+        <sys_id>2ea94e502f87211031dc5fd92799b6bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 19:53:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=47a4c61c2f47211031dc5fd92799b6f6^sys_idNOT IN1e735ed82f87211031dc5fd92799b612"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"1e735ed82f87211031dc5fd92799b612","name":"plan","plan_signature":null}}</plan>
+        <plan_id>47a4c61c2f47211031dc5fd92799b6f6</plan_id>
+        <snapshot>bd731ed82f87211031dc5fd92799b69a</snapshot>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e735ed82f87211031dc5fd92799b612</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <trigger display_value="">d13cb4d92f43211031dc5fd92799b6c3</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=47a4c61c2f47211031dc5fd92799b6f6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Automation Flow for customer's order notifications
+</description>
+        <internal_name>yummie_orders_flow__2</internal_name>
+        <label_cache>[{"name":"40d7226f-effa-4ba0-9b6a-1d3c2a88a4f1.__dont_treat_as_error__","label":"3 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40d7226f-effa-4ba0-9b6a-1d3c2a88a4f1.__action_status__","label":"3 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.Table","label":"2 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a20ea51f-b8e6-4563-ad49-62c56872d883.Record","label":"2 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.Table","label":"2 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43b85a77-ed29-44eb-b5f6-3678f566363a.Record","label":"2 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_reference_1.email","label":"Trigger - Record Created➛Meal Time of the Day Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.u_reference_1","label":"Trigger - Record Created➛Meal Time of the Day Record➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1022112_yummie_meal_time_of_the_day","column_name":"u_reference_1"},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.Table","label":"2 - Create Task➛Meal Time of the Day Table","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bc8a1f0e-41ce-4540-a1cd-c5fae25544fa.Record","label":"2 - Create Task➛Meal Time of the Day Record","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.Table","label":"2 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a5090a1-0022-4c68-966e-9a2232b1e2f5.Record","label":"2 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.customer_first_name","label":"Trigger - Record Created➛Meal Time of the Day Record➛Yummie User First Name","reference":"","reference_display":"Yummie User First Name","type":"string","base_type":"string","parent_table_name":"x_1022112_yummie_meal_time_of_the_day","column_name":"customer_first_name"},{"name":"4b595c01-5b1b-40e6-83a7-0bdea6571664.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b595c01-5b1b-40e6-83a7-0bdea6571664.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4b595c01-5b1b-40e6-83a7-0bdea6571664.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Meal Time of the Day Record","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"reference","base_type":"reference","attributes":{}},{"name":"f362e957-8aa8-44bf-923f-c1ce8ff76b18.__dont_treat_as_error__","label":"1 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f362e957-8aa8-44bf-923f-c1ce8ff76b18.__action_status__","label":"1 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Meal Time of the Day Table","reference":"x_1022112_yummie_meal_time_of_the_day","reference_display":"Meal Time of the Day","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"7b4e3e39-4371-4246-bb88-347c18e09ed6.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b4e3e39-4371-4246-bb88-347c18e09ed6.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b4e3e39-4371-4246-bb88-347c18e09ed6.__dont_treat_as_error__","label":"2 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Meal Time of the Day Record➛State","reference":"","reference_display":"State","type":"string","base_type":"string","parent_table_name":"x_1022112_yummie_meal_time_of_the_day","column_name":"state"},{"name":"373764e5-b490-4bfa-bd15-b674de6cabf4.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"373764e5-b490-4bfa-bd15-b674de6cabf4.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"373764e5-b490-4bfa-bd15-b674de6cabf4.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.e3f89e0d2f72211031dc5fd92799b661}}","label":"Jeffte Meneus","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
+        <master>true</master>
+        <name>Yummie Notification Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Yummie Notification Flow">47a4c61c2f47211031dc5fd92799b6f6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd731ed82f87211031dc5fd92799b69a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:11</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=bd731ed82f87211031dc5fd92799b69a^sys_idNOT IN82731ed82f87211031dc5fd92799b6dd"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Yummie Notification Flow">bd731ed82f87211031dc5fd92799b69a</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>82731ed82f87211031dc5fd92799b6dd</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:12</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=82731ed82f87211031dc5fd92799b6dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>82731ed82f87211031dc5fd92799b6dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>8e731ed82f87211031dc5fd92799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <value>x_1022112_yummie_meal_time_of_the_day</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>82731ed82f87211031dc5fd92799b6dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>ca731ed82f87211031dc5fd92799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=bd731ed82f87211031dc5fd92799b69a^sys_idNOT INbd731ed82f87211031dc5fd92799b69b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>bd731ed82f87211031dc5fd92799b69a</id>
+        <name>Yummie Orders Flow - 2</name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:30</sys_created_on>
+        <sys_id>bd731ed82f87211031dc5fd92799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bd731ed82f87211031dc5fd92799b69b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=bd731ed82f87211031dc5fd92799b69a^sys_idNOT IN35731ed82f87211031dc5fd92799b69d,4a731ed82f87211031dc5fd92799b6c6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Yummie Notification Flow">bd731ed82f87211031dc5fd92799b69a</model>
+        <model_id>bd731ed82f87211031dc5fd92799b69a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bd731ed82f87211031dc5fd92799b69a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:30</sys_created_on>
+        <sys_id>35731ed82f87211031dc5fd92799b69d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Yummie Notification Flow">bd731ed82f87211031dc5fd92799b69a</model>
+        <model_id>bd731ed82f87211031dc5fd92799b69a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bd731ed82f87211031dc5fd92799b69a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>4a731ed82f87211031dc5fd92799b6c6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=bd731ed82f87211031dc5fd92799b69a^sys_idNOT IN4e731ed82f87211031dc5fd92799b6d8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Yummie Notification Flow">bd731ed82f87211031dc5fd92799b69a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>4e731ed82f87211031dc5fd92799b6d8</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-25 16:49:11</sys_updated_on>
+        <ui_id>4b595c01-5b1b-40e6-83a7-0bdea6571664</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4e731ed82f87211031dc5fd92799b6d8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4e731ed82f87211031dc5fd92799b6d8</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>0e731ed82f87211031dc5fd92799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <value>Yummie - Order Out for Delivery</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4e731ed82f87211031dc5fd92799b6d8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>4a731ed82f87211031dc5fd92799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <value>x_1022112_yummie_meal_time_of_the_day</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4e731ed82f87211031dc5fd92799b6d8</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>82731ed82f87211031dc5fd92799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <value>&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Dear Customer,&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Thank you for choosing Yummie! This email is to confirm the receipt of your recent order. We appreciate your business and are excited to fulfill your order.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Please note that this email serves as confirmation that we have received your order and that it is being processed. We will notify you separately once your order has been shipped.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;If you have any questions or concerns regarding your order, please feel free to reach out to our customer support team at hello&amp;#64;yummie.legendaryllc.com. We will be happy to assist you.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Thank you again for your purchase. We truly value your business and look forward to serving you again in the future.&lt;/p&gt;
+&lt;p style="border: 0px solid #d9d9e3; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(69,89,164,.5); --tw-ring-offset-shadow: 0 0 transparent; --tw-ring-shadow: 0 0 transparent; --tw-shadow: 0 0 transparent; --tw-shadow-colored: 0 0 transparent; margin-top: 1.25em; margin-bottom: 1.25em; color: #374151; font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;#39;Segoe UI&amp;#39;, Roboto, Ubuntu, Cantarell, &amp;#39;Noto Sans&amp;#39;, sans-serif, &amp;#39;Helvetica Neue&amp;#39;, Arial, &amp;#39;Apple Color Emoji&amp;#39;, &amp;#39;Segoe UI Emoji&amp;#39;, &amp;#39;Segoe UI Symbol&amp;#39;, &amp;#39;Noto Color Emoji&amp;#39;; font-size: 16px; white-space: pre-wrap; background-color: #f7f7f8;"&gt;Best regards,&lt;/p&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4e731ed82f87211031dc5fd92799b6d8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>4e731ed82f87211031dc5fd92799b6d8</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>c6731ed82f87211031dc5fd92799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>4e731ed82f87211031dc5fd92799b6d8</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>02731ed82f87211031dc5fd92799b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>4e731ed82f87211031dc5fd92799b6d8</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>02731ed82f87211031dc5fd92799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.u_reference_1.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4e731ed82f87211031dc5fd92799b6d8</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>8a731ed82f87211031dc5fd92799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4e731ed82f87211031dc5fd92799b6d8</id>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>4e731ed82f87211031dc5fd92799b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4e731ed82f87211031dc5fd92799b6d8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4e731ed82f87211031dc5fd92799b6d8"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bd731ed82f87211031dc5fd92799b69a^sys_idNOT IN02731ed82f87211031dc5fd92799b6c3,46731ed82f87211031dc5fd92799b6ca"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bd731ed82f87211031dc5fd92799b69a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>02731ed82f87211031dc5fd92799b6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bd731ed82f87211031dc5fd92799b69a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jeffte.meneus</sys_created_by>
+        <sys_created_on>2023-05-22 20:36:31</sys_created_on>
+        <sys_id>46731ed82f87211031dc5fd92799b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jeffte.meneus</sys_updated_by>
+        <sys_updated_on>2023-05-22 20:36:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_bd731ed82f87211031dc5fd92799b69a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>47a4c61c2f47211031dc5fd92799b6f6</sys_id>
+        <latest_snapshot>bd731ed82f87211031dc5fd92799b69a</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch4a-01-03-2023_01-11-2023_0813.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

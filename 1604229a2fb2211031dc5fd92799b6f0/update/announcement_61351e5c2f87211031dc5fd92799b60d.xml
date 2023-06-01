@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>session_dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Yummie In a Hurry">2ba00e182f47211031dc5fd92799b645</display_style>
+        <from>2023-05-21 20:47:40</from>
+        <glyph>exclamation-triangle</glyph>
+        <glyph_alt_text/>
+        <name>New Service Option</name>
+        <public>false</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Yummie Recipes is pleased to announce a new service: Yummie in a Hurry! Beginning June 3, 2023, NYC Yummie Users will be able to place an order for a meal kit and get same day delivery. Stay tuned for more info!</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-22 22:52:54</sys_created_on>
+        <sys_id>61351e5c2f87211031dc5fd92799b60d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Service Option</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>announcement_61351e5c2f87211031dc5fd92799b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-01 22:18:29</sys_updated_on>
+        <title>COMING SOON TO NYC:</title>
+        <to>2023-06-08 20:47:57</to>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=61351e5c2f87211031dc5fd92799b60d"/>
+</record_update>

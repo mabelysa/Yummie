@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">35859d8c2fcba11031dc5fd92799b661</sp_column>
+        <sp_widget display_value="Yummie Link Modal">19a75d332f7e611031dc5fd92799b6dd</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 06:31:56</sys_created_on>
+        <sys_id>695529f02f4f211031dc5fd92799b663</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Recipe of the Week</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_695529f02f4f211031dc5fd92799b663</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 06:33:25</sys_updated_on>
+        <title>Recipe of the Week</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Recipe of the Week",
+		"displayValue": "Recipe of the Week"
+	},
+	"link_title": {
+		"value": "Best Stuffed Peppers",
+		"displayValue": "Best Stuffed Peppers"
+	},
+	"kb_article": {
+		"value": "f5b8a13a2f3a211031dc5fd92799b678",
+		"displayValue": "KB0010007"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=695529f02f4f211031dc5fd92799b663"/>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spModal) {
+  /* widget controller */
+	var c = this;
+	
+	c.openOverlay = function($event){  
+  
+  //pull data-article attribute from clicked element  
+  var articleId = $event.currentTarget.dataset.article;  
+  
+  //open modal  
+  spModal.open({  
+  
+	//load our custom kb article widget  
+  widget: 'yummie_article_modal',  
+  
+  //pass article id to article widget  
+  widgetInput: { sys_id:articleId },  
+  
+  //force modal to large size  
+  size: 'lg'  
+  })  
+ }
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>yummie_link_modal</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Yummie Link Modal</name>
+        <option_schema>[{"name":"title","section":"Presentation","label":"Title","type":"string"},{"name":"link_title","section":"Data","label":"Link Title","type":"string"},{"displayValue":"Knowledge","name":"kb_article","section":"Data","default_value":"KB0000001","label":"Yummie Article","type":"reference","value":"kb_knowledge","ed":{"reference":"kb_knowledge"}}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 02:58:11</sys_created_on>
+        <sys_id>19a75d332f7e611031dc5fd92799b6dd</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Yummie Link Modal</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_widget_19a75d332f7e611031dc5fd92799b6dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 06:28:42</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <div class="cdWidgetTitleBar">
+  <p>{{::options.title}}</p>
+</div>
+
+<div class="cdWidgetContentArea">
+  <p><a class="btn btn-info" href="javascript:void(0);"
+        data-article="{{options.kb_article}}"
+        ng-click="c.openOverlay($event)">{{::options.link_title}}
+    </a>
+  </p>
+</div>
+
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

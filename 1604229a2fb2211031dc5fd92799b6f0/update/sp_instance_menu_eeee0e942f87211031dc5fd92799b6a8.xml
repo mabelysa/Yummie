@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget display_value="Yummie Header Menu">d14ef1942f47211031dc5fd92799b6cd</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 20:26:45</sys_created_on>
+        <sys_id>eeee0e942f87211031dc5fd92799b6a8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Yummie Header Menu</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_menu_eeee0e942f87211031dc5fd92799b6a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 06:51:40</sys_updated_on>
+        <title>Yummie Header Menu</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"enable_cart":{
+		"displayValue":"false",
+		"value":false
+	},
+	"auto_update_cart":{
+		"displayValue":"false",
+		"value":false
+	},
+	"exclude_search_on_homepage":{
+		"displayValue":"true",
+		"value":true
+	},
+	"enable_wishlist":{
+		"displayValue":"false",
+		"value":false
+	},
+	"enable_requests":{
+		"displayValue":"false",
+		"value":false
+	},
+	"enable_tasks":{
+		"displayValue":"false",
+		"value":false
+	},
+    "enable_more_items":{
+      	"displayValue":"false",
+      	"value":false,
+        "sysId":"01ef85b65368301056c1ddeeff7b12ce"
+    }
+}]]></widget_parameters>
+    </sp_instance_menu>
+    <sys_translated_text action="delete_multiple" query="documentkey=eeee0e942f87211031dc5fd92799b6a8"/>
+</record_update>
