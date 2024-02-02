@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6faab29e2ff2211031dc5fd92799b62e" label="Meal Time of the Day" max_length="40" name="x_1022112_yummie_meal_time_of_the_day" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quantity" max_length="40" name="bfast_quantity" type="string" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Breakfast" mandatory="true" max_length="40" name="breakfast" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Breakfast Kits" mandatory="true" max_length="40" name="breakfast_kits" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Breakfast Tacos" sequence="0" value="breakfast tacos"/>
+                <element inactive_on_update="false" label="Overnight Oats" sequence="1" value="overnight oats"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="City" mandatory="true" max_length="100" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Yummie User First Name" mandatory="true" max_length="100" name="customer_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Yummie User Last Name" mandatory="true" max_length="100" name="customer_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dessert" max_length="40" name="dessert" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dessert Kits" mandatory="true" max_length="40" name="dessert_kits" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Banana Pudding" sequence="0" value="banana pudding"/>
+                <element inactive_on_update="false" label="No Bake Oatmeal Cookies" sequence="1" value="no bake oatmeal cookies"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quantity" max_length="40" name="dessert_quantity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dinner" max_length="40" name="dinner" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dinner Kits" mandatory="true" max_length="40" name="dinner_kits" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Chicken Stir Fry" sequence="0" value="chicken stir fry"/>
+                <element inactive_on_update="false" label="Shrimp Fried Rice" sequence="1" value="shrimp fried rice"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quantity" max_length="40" name="dinner_quantity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lunch" max_length="40" name="lunch" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lunch Kits" mandatory="true" max_length="40" name="lunch_kits" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Stuffed Peppers" sequence="0" value="stuffed peppers"/>
+                <element inactive_on_update="false" label="Tuna Salad" sequence="1" value="tuna salad"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quantity" max_length="40" name="lunch_quantity" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Order Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order Date" max_length="40" name="order_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Order Notes" max_length="4000" name="order_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Order Status" max_length="40" name="order_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Received" sequence="0" value="received"/>
+                <element inactive_on_update="false" label="Processing" sequence="1" value="processing"/>
+                <element inactive_on_update="false" label="In Packaging" sequence="2" value="in packaging"/>
+                <element inactive_on_update="false" label="Preparing to Ship" sequence="3" value="preparing to ship"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="State" mandatory="true" max_length="100" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Address" mandatory="true" max_length="100" name="street_address" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="New Decimal" max_length="15" name="u_decimal_5" type="decimal"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="function onChange(control, oldValue, newValue, isLoading, isTemplate) {&#13;&#10;    if (isLoading || newValue === '') {&#13;&#10;        return;&#13;&#10;    }&#13;&#10;    if (!/^\d{5}(?:-\d{4})?$/.test(newValue)) {&#13;&#10;        g_form.showFieldMsg('zip_code', 'Please enter a valid zip code', 'error');&#13;&#10;        return false;&#13;&#10;    }&#13;&#10;    g_form.hideFieldMsg('zip_code', true);&#13;&#10;    return true;&#13;&#10;}" default="12345" label="Zip Code" mandatory="true" max_length="40" name="zip_code" type="integer"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

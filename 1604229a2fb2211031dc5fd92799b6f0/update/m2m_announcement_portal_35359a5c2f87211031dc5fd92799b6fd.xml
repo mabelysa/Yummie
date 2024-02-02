@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_announcement_portal">
     <m2m_announcement_portal action="INSERT_OR_UPDATE">
-        <announcement display_value="">61351e5c2f87211031dc5fd92799b60d</announcement>
+        <announcement display_value="New Service Option">61351e5c2f87211031dc5fd92799b60d</announcement>
         <order>100</order>
         <sp_portal display_value="Yummie Recipe Portal">26159f5f2fb6211031dc5fd92799b614</sp_portal>
         <sys_class_name>m2m_announcement_portal</sys_class_name>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="lunch_quantity" table="x_1022112_yummie_meal_time_of_the_day" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>lunch_quantity</element>
+            <name>x_1022112_yummie_meal_time_of_the_day</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>evelyn.stewart</sys_created_by>
+            <sys_created_on>2023-05-20 19:11:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>lunch_quantity</sys_name>
+            <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+            <sys_update_name>sys_choice_x_1022112_yummie_meal_time_of_the_day_lunch_quantity</sys_update_name>
+            <sys_updated_by>evelyn.stewart</sys_updated_by>
+            <sys_updated_on>2023-05-20 19:11:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lunch_quantity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_1022112_yummie_meal_time_of_the_day</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>evelyn.stewart</sys_created_by>
+            <sys_created_on>2023-05-20 19:11:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>evelyn.stewart</sys_updated_by>
+            <sys_updated_on>2023-05-20 19:11:35</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lunch_quantity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2</label>
+            <language>en</language>
+            <name>x_1022112_yummie_meal_time_of_the_day</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>evelyn.stewart</sys_created_by>
+            <sys_created_on>2023-05-20 19:11:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>evelyn.stewart</sys_updated_by>
+            <sys_updated_on>2023-05-20 19:11:35</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lunch_quantity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_1022112_yummie_meal_time_of_the_day</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>evelyn.stewart</sys_created_by>
+            <sys_created_on>2023-05-20 19:11:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>evelyn.stewart</sys_updated_by>
+            <sys_updated_on>2023-05-20 19:11:35</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

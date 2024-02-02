@@ -35,5 +35,6 @@ h1,h2 {&#13;
         <sys_update_name>sp_theme_68df65132f72211031dc5fd92799b6b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-05-24 05:32:29</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
     </sp_theme>
 </record_update>

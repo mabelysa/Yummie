@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ef6574332ffa611031dc5fd92799b63c</sp_column>
+        <sp_widget display_value="modal">b89096930b211200b0b02c6317673a2c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 03:15:23</sys_created_on>
+        <sys_id>199b19772f7e611031dc5fd92799b6f2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_199b19772f7e611031dc5fd92799b6f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 03:27:33</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=199b19772f7e611031dc5fd92799b6f2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sp_instance_199b19772f7e611031dc5fd92799b6f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">ef6574332ffa611031dc5fd92799b63c</sp_column><sp_widget display_value="modal">b89096930b211200b0b02c6317673a2c</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-21 03:15:23</sys_created_on><sys_id>199b19772f7e611031dc5fd92799b6f2</sys_id><sys_mod_count>5</sys_mod_count><sys_name/><sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package><sys_policy/><sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope><sys_update_name>sp_instance_199b19772f7e611031dc5fd92799b6f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-21 03:27:33</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=199b19772f7e611031dc5fd92799b6f2"/></record_update>]]></payload>
+        <payload_hash>-232378576</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 03:27:33</sys_created_on>
+        <sys_id>af5ed13b2f7e611031dc5fd92799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883c591e1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 03:27:33</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e75ed13b957e6110a04a303a0665c26c</update_guid>
+        <update_guid_history>e75ed13b957e6110a04a303a0665c26c:-232378576,1c0e5df7907e61105fbaa5a7ec25c8b9:-1523030385,6cfd5df7c17e6110889e54ba31309818:-232378576,42ed1df70a7e611015075bce4641978a:1058273233,47ab99771d7e611004ff4900567a9b2b:-232378576,dd9b1977787e611081c131dab11c23f3:1058273233</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">266e153b2f7e611031dc5fd92799b621</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 03:27:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>b65ad74b3d3e44da9b20f32894b315e4</sys_id>
+        <sys_metadata>199b19772f7e611031dc5fd92799b6f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sp_instance_199b19772f7e611031dc5fd92799b6f2</sys_update_name>
+        <sys_update_version display_value="sp_instance_199b19772f7e611031dc5fd92799b6f2">af5ed13b2f7e611031dc5fd92799b66c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 03:27:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

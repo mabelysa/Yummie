@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">35859d8c2fcba11031dc5fd92799b661</sp_column>
+        <sp_widget display_value="Yummie Link Modal">19a75d332f7e611031dc5fd92799b6dd</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 03:28:46</sys_created_on>
+        <sys_id>59ae193b2f7e611031dc5fd92799b60e</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Recipe of the Week</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_59ae193b2f7e611031dc5fd92799b60e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 06:31:16</sys_updated_on>
+        <title>Recipe of the Week</title>
+        <url>https://dev90525.service-now.com/nav_to.do?uri=kb_knowledge.do?sys_id=f5b8a13a2f3a211031dc5fd92799b678</url>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Recipe of the Week",
+		"displayValue": "Recipe of the Week"
+	},
+	"link_title": {
+		"value": "Testing",
+		"displayValue": "Testing"
+	},
+	"yummie_article": {
+		"value": "c26e353e2f7a211031dc5fd92799b670",
+		"displayValue": "KB0010009"
+	},
+	"kb_article": {
+		"value": "409de43187032100deddb882a2e3ecd9",
+		"displayValue": "KB0000031"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=59ae193b2f7e611031dc5fd92799b60e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sp_instance_59ae193b2f7e611031dc5fd92799b60e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;35859d8c2fcba11031dc5fd92799b661&lt;/sp_column&gt;&lt;sp_widget display_value="Yummie Link Modal"&gt;19a75d332f7e611031dc5fd92799b6dd&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-21 03:28:46&lt;/sys_created_on&gt;&lt;sys_id&gt;59ae193b2f7e611031dc5fd92799b60e&lt;/sys_id&gt;&lt;sys_mod_count&gt;28&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recipe of the Week&lt;/sys_name&gt;&lt;sys_package display_value="Yummie" source="x_1022112_yummie"&gt;1604229a2fb2211031dc5fd92799b6f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Yummie"&gt;1604229a2fb2211031dc5fd92799b6f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_59ae193b2f7e611031dc5fd92799b60e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-24 06:31:16&lt;/sys_updated_on&gt;&lt;title&gt;Recipe of the Week&lt;/title&gt;&lt;url&gt;https://dev90525.service-now.com/nav_to.do?uri=kb_knowledge.do?sys_id=f5b8a13a2f3a211031dc5fd92799b678&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "Recipe of the Week",
+		"displayValue": "Recipe of the Week"
+	},
+	"link_title": {
+		"value": "Testing",
+		"displayValue": "Testing"
+	},
+	"yummie_article": {
+		"value": "c26e353e2f7a211031dc5fd92799b670",
+		"displayValue": "KB0010009"
+	},
+	"kb_article": {
+		"value": "409de43187032100deddb882a2e3ecd9",
+		"displayValue": "KB0000031"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=59ae193b2f7e611031dc5fd92799b60e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>342770195</payload_hash>
+        <record_name>Recipe of the Week</record_name>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 06:31:17</sys_created_on>
+        <sys_id>4835adb02f4f211031dc5fd92799b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1884c7468420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 06:31:17</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8035adb0f34f2110569f688d0f5a608b</update_guid>
+        <update_guid_history>8035adb0f34f2110569f688d0f5a608b:342770195,8ff1e170574f211071afbcb0ed6e68e1:-1232957685,0da1ad30684f2110e69f59d0e6acdcd3:49615701,7ed0adfcb90f2110d4e79d5f3c0dc413:-2079074846,b88d3f6038c721106e2f5a830de699fe:230226817,4a7d3f60acc72110968527a600d3d894:-1428782291,b25d3760f9c721104538fd0e8d21afa3:230226817,755db3202bc72110b9786cc61d1bbc98:-1428782291,0dec3f20f8c7211008b866cd23f97419:230226817,06dcbb208dc72110681d0ac7891c4c57:-281825953,025cf7ecb5872110a8fdb54484108a78:230226817,5f4c3f2054c72110a08275edad0da013:272422512,5f0b6b202f8721103af3f93fa9ce0346:230226817,25daa3209f87211042861f31b9865c1e:1512800203,4fca27ec9e47211008bdc3bddb64cd9c:-561470614,969aafec80472110b41217c97be381ed:-392018862,2c8aa7ecbd472110d9a89d75a5b77574:-14914905,9da9ef6c6d47211044797487a31e29cd:-2092801299,0289a3ec41472110ad7625fcda59f60d:-1858750609,2e38ab6c34472110e0e21b6a9316afa3:-1840537868,d9bb6aa06a832110a3638df7b019302a:-2092801299,f3ab2aa015832110ada2250b3787a9c0:-1599060706,d29ba6a0e5832110ae3ddcb43b21e5db:-1030307683,678ba6a09283211081256eeec58edc17:-1599060706,4f8b66a04f832110273dc624c1b8f1cc:-1030307683,e2859d8c61cba110cf95216ab5b6b9cf:-461554660,1d34d54ceacba110c36449fcea408565:1829119784,bb1f153b9b7e61101d1bbd2684becebd:1763972271,25ae193b5b7e61102a1b77ec3033fb10:-360825134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Recipe of the Week">1fa5a1342f4f211031dc5fd92799b6a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 06:33:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>23856ce940904327863d43b0c2204ca9</sys_id>
+        <sys_metadata>59ae193b2f7e611031dc5fd92799b60e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recipe of the Week</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sp_instance_59ae193b2f7e611031dc5fd92799b60e</sys_update_name>
+        <sys_update_version display_value="sp_instance_59ae193b2f7e611031dc5fd92799b60e">4835adb02f4f211031dc5fd92799b68b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 06:33:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

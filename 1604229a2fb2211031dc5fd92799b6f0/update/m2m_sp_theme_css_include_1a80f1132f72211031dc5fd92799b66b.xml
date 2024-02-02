@@ -2,7 +2,7 @@
     <m2m_sp_theme_css_include action="INSERT_OR_UPDATE">
         <order/>
         <sp_css_include display_value="Yummie">eb403d132f72211031dc5fd92799b6fb</sp_css_include>
-        <sp_theme display_value="Yummie">68df65132f72211031dc5fd92799b6b9</sp_theme>
+        <sp_theme display_value="Yummie Theme">68df65132f72211031dc5fd92799b6b9</sp_theme>
         <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-19 15:29:59</sys_created_on>

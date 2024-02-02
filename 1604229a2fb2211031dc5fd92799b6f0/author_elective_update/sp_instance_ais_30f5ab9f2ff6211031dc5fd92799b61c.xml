@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder>Keyword search</placeholder>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description>Search for breakfast, lunch, dinner and dessert meal kits here.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">cba2abdb2ff6211031dc5fd92799b675</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-20 00:02:58</sys_created_on>
+        <sys_id>30f5ab9f2ff6211031dc5fd92799b61c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Tummie's hungry? Search here in Yummie!</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_ais_30f5ab9f2ff6211031dc5fd92799b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 01:41:51</sys_updated_on>
+        <title>Tummie's hungry? Search here in Yummie!</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=30f5ab9f2ff6211031dc5fd92799b61c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sp_instance_ais_30f5ab9f2ff6211031dc5fd92799b61c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder&gt;Keyword search&lt;/placeholder&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description&gt;Search for breakfast, lunch, dinner and dessert meal kits here.&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;cba2abdb2ff6211031dc5fd92799b675&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-20 00:02:58&lt;/sys_created_on&gt;&lt;sys_id&gt;30f5ab9f2ff6211031dc5fd92799b61c&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tummie's hungry? Search here in Yummie!&lt;/sys_name&gt;&lt;sys_package display_value="Yummie" source="x_1022112_yummie"&gt;1604229a2fb2211031dc5fd92799b6f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Yummie"&gt;1604229a2fb2211031dc5fd92799b6f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_30f5ab9f2ff6211031dc5fd92799b61c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-21 01:41:51&lt;/sys_updated_on&gt;&lt;title&gt;Tummie's hungry? Search here in Yummie!&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=30f5ab9f2ff6211031dc5fd92799b61c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-457010609</payload_hash>
+        <record_name>Tummie's hungry? Search here in Yummie!</record_name>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 01:41:51</sys_created_on>
+        <sys_id>cf2645332f3e611031dc5fd92799b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883bf858310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 01:41:51</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>0b264533bc3e61109a667638e7604bb6</update_guid>
+        <update_guid_history>0b264533bc3e61109a667638e7604bb6:-457010609,c3264533423e6110415fc0a43b8796b2:-1809988707,96260573d43e6110a8c9deccf883b8c0:-2070236976,ad26c173ef3e6110320faefa21cf22c0:-457010609,07a33fdbb03a2110e0def313421cbf8f:-1809988707,0da3b3dbc13a21104384d15be0e78367:-457010609,3bd92b933d3a2110a0c6ec368d3ee795:-1809988707,4cc9e7539b3a21105aca4d5478ae439e:1515901540,9ca92793253a2110a78bfb36a472b529:-1809988707,6c7923938c3a21102db10f789f1cb748:-54224660,a9596353ba3a2110b02241a92a9530a2:338945939,15c8e7534e3a2110caf639907864856d:2090066700,88e7e7df7bf6211055249b6944fe110b:-1809988707,45f5ab9f0bf62110ca216b1da312ea1e:-126961289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tummie's hungry? Search here in Yummie!">193645732f3e611031dc5fd92799b64b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 01:41:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>02d2447da6604f76800b233f25c10d84</sys_id>
+        <sys_metadata>30f5ab9f2ff6211031dc5fd92799b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tummie's hungry? Search here in Yummie!</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_30f5ab9f2ff6211031dc5fd92799b61c</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_30f5ab9f2ff6211031dc5fd92799b61c">cf2645332f3e611031dc5fd92799b6b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 01:41:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

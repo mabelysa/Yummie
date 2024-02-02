@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -75,7 +77,7 @@
         <sys_created_by>evelyn.stewart</sys_created_by>
         <sys_created_on>2023-05-24 02:26:42</sys_created_on>
         <sys_id>338b95872fb6611031dc5fd92799b69f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Any Food Allergies?</sys_name>
         <sys_package/>
         <sys_policy/>

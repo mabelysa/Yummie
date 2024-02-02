@@ -33,6 +33,7 @@ h3 {
 </css>
         <draft>false</draft>
         <dynamic_title_structure/>
+        <human_readable_url_structure/>
         <id>yummie_index</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>

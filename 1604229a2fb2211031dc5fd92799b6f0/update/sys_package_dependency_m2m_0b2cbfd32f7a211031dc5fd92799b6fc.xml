@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">0c598f86c51021108c8b506e733c4c9c</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-20 01:40:04</sys_created_on>
+        <sys_id>0b2cbfd32f7a211031dc5fd92799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 01:40:04</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

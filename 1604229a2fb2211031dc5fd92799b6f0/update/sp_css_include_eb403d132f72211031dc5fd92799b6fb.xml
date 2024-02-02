@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
     <sp_css_include action="INSERT_OR_UPDATE">
+        <lazy_load>false</lazy_load>
         <name>Yummie</name>
         <source>local</source>
         <sp_css display_value="yummie_links.css">49ee29df2f32211031dc5fd92799b62f</sp_css>

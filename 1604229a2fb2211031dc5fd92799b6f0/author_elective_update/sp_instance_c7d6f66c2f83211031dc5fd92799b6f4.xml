@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3985d98c2fcba11031dc5fd92799b6ca</sp_column>
+        <sp_widget display_value="Variable Summarizer">3e2bcf17b7220010bcd50718ee11a956</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-23 17:49:38</sys_created_on>
+        <sys_id>c7d6f66c2f83211031dc5fd92799b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_c7d6f66c2f83211031dc5fd92799b6f4</sys_update_name>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:49:38</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=c7d6f66c2f83211031dc5fd92799b6f4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sp_instance_c7d6f66c2f83211031dc5fd92799b6f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">3985d98c2fcba11031dc5fd92799b6ca</sp_column><sp_widget display_value="Variable Summarizer">3e2bcf17b7220010bcd50718ee11a956</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>evelyn.stewart</sys_created_by><sys_created_on>2023-05-23 17:49:38</sys_created_on><sys_id>c7d6f66c2f83211031dc5fd92799b6f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package><sys_policy/><sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope><sys_update_name>sp_instance_c7d6f66c2f83211031dc5fd92799b6f4</sys_update_name><sys_updated_by>evelyn.stewart</sys_updated_by><sys_updated_on>2023-05-23 17:49:38</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=c7d6f66c2f83211031dc5fd92799b6f4"/></record_update>]]></payload>
+        <payload_hash>1415612189</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-23 17:49:39</sys_created_on>
+        <sys_id>dbd6f66c2f83211031dc5fd92799b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18849bb1cfa0000001</sys_recorded_at>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:49:39</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>17d6f66c2b8321104087d4b705cd65f6</update_guid>
+        <update_guid_history>17d6f66c2b8321104087d4b705cd65f6:1415612189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6107be2c2f83211031dc5fd92799b6ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-23 17:50:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>18a101545fad470495195fc34a1d6190</sys_id>
+        <sys_metadata>c7d6f66c2f83211031dc5fd92799b6f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sp_instance_c7d6f66c2f83211031dc5fd92799b6f4</sys_update_name>
+        <sys_update_version display_value="sp_instance_c7d6f66c2f83211031dc5fd92799b6f4">dbd6f66c2f83211031dc5fd92799b6f6</sys_update_version>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:50:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

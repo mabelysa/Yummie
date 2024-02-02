@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Shipping</name>
+        <order>100</order>
+        <roles>x_1022112_yummie.shipper</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-20 19:22:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>895fa7632ff6611031dc5fd92799b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shipping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sys_app_application_895fa7632ff6611031dc5fd92799b641</sys_update_name>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 19:22:25</sys_updated_on>
+        <title>Shipping</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sys_app_application_895fa7632ff6611031dc5fd92799b641</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Shipping</name><order>100</order><roles>x_1022112_yummie.shipper</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>evelyn.stewart</sys_created_by><sys_created_on>2023-05-20 19:22:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>895fa7632ff6611031dc5fd92799b641</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Shipping</sys_name><sys_overrides/><sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package><sys_policy/><sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope><sys_update_name>sys_app_application_895fa7632ff6611031dc5fd92799b641</sys_update_name><sys_updated_by>evelyn.stewart</sys_updated_by><sys_updated_on>2023-05-20 19:22:25</sys_updated_on><title>Shipping</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1279089248</payload_hash>
+        <record_name>Shipping</record_name>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-20 19:22:25</sys_created_on>
+        <sys_id>015fa7632ff6611031dc5fd92799b644</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883a9cf9050000001</sys_recorded_at>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 19:22:25</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>495fa76360f661107b19cc0b6f570143</update_guid>
+        <update_guid_history>495fa76360f661107b19cc0b6f570143:-1279089248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Shipping">e103bf272ff6611031dc5fd92799b6a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-20 19:38:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>22f4d7600ca4426c911841cefc57f991</sys_id>
+        <sys_metadata>895fa7632ff6611031dc5fd92799b641</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shipping</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sys_app_application_895fa7632ff6611031dc5fd92799b641</sys_update_name>
+        <sys_update_version display_value="sys_app_application_895fa7632ff6611031dc5fd92799b641">015fa7632ff6611031dc5fd92799b644</sys_update_version>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 19:38:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

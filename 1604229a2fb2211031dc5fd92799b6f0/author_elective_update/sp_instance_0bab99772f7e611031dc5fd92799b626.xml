@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ef6574332ffa611031dc5fd92799b63c</sp_column>
+        <sp_widget display_value="Yummie Link Modal">19a75d332f7e611031dc5fd92799b6dd</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 03:15:46</sys_created_on>
+        <sys_id>0bab99772f7e611031dc5fd92799b626</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Recipe of the Week</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_instance_0bab99772f7e611031dc5fd92799b626</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 03:19:39</sys_updated_on>
+        <title>Recipe of the Week</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Recipe of the Week",
+		"displayValue": "Recipe of the Week"
+	},
+	"link_title": {
+		"value": "Stuffed Peppers",
+		"displayValue": "Stuffed Peppers"
+	},
+	"yummie_article": {
+		"value": "7c8f75b5474321009db4b5b08b9a71b5",
+		"displayValue": "KB0000007"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=0bab99772f7e611031dc5fd92799b626"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sp_instance_0bab99772f7e611031dc5fd92799b626</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;ef6574332ffa611031dc5fd92799b63c&lt;/sp_column&gt;&lt;sp_widget display_value="Yummie Link Modal"&gt;19a75d332f7e611031dc5fd92799b6dd&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-21 03:15:46&lt;/sys_created_on&gt;&lt;sys_id&gt;0bab99772f7e611031dc5fd92799b626&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recipe of the Week&lt;/sys_name&gt;&lt;sys_package display_value="Yummie" source="x_1022112_yummie"&gt;1604229a2fb2211031dc5fd92799b6f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Yummie"&gt;1604229a2fb2211031dc5fd92799b6f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_0bab99772f7e611031dc5fd92799b626&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-21 03:19:39&lt;/sys_updated_on&gt;&lt;title&gt;Recipe of the Week&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "Recipe of the Week",
+		"displayValue": "Recipe of the Week"
+	},
+	"link_title": {
+		"value": "Stuffed Peppers",
+		"displayValue": "Stuffed Peppers"
+	},
+	"yummie_article": {
+		"value": "7c8f75b5474321009db4b5b08b9a71b5",
+		"displayValue": "KB0000007"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0bab99772f7e611031dc5fd92799b626"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>173365557</payload_hash>
+        <record_name>Recipe of the Week</record_name>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 03:19:39</sys_created_on>
+        <sys_id>b38cd5b72f7e611031dc5fd92799b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883c51e3bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 03:19:39</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fb8cd5b7f77e6110de5df3956ad8921f</update_guid>
+        <update_guid_history>fb8cd5b7f77e6110de5df3956ad8921f:173365557,ce6c5937767e6110ea10a3154eb8fff3:-1123512035,0fab9977aa7e6110be642a0b07142c27:-360825134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Recipe of the Week">4eed1df72f7e611031dc5fd92799b680</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 03:25:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>403dc88683ad48329ad979cdab694a44</sys_id>
+        <sys_metadata>0bab99772f7e611031dc5fd92799b626</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recipe of the Week</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sp_instance_0bab99772f7e611031dc5fd92799b626</sys_update_name>
+        <sys_update_version display_value="sp_instance_0bab99772f7e611031dc5fd92799b626">b38cd5b72f7e611031dc5fd92799b620</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 03:25:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

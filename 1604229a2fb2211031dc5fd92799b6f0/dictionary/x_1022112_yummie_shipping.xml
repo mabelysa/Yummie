@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="334e27232ff6611031dc5fd92799b6dc" extends="x_1022112_yummie_packaging" label="Shipping" max_length="40" name="x_1022112_yummie_shipping" type="collection"/>
+</database>

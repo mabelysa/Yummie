@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
     <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
         <sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency>
-        <sp_widget display_value="Copy of Header Menu">d14ef1942f47211031dc5fd92799b6cd</sp_widget>
+        <sp_widget display_value="Yummie Header Menu">d14ef1942f47211031dc5fd92799b6cd</sp_widget>
         <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-22 19:03:53</sys_created_on>

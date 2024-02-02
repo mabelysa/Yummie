@@ -21,6 +21,7 @@ $sp-logo-margin-x:1rem;&#13;
 $btn-default-bg:#fff;&#13;
 $text-muted:#979797;&#13;
 </css_variables>
+        <dark_theme/>
         <default>true</default>
         <enable_ais>true</enable_ais>
         <enable_favorites>false</enable_favorites>

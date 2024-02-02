@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>4</order>
+        <size>3</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">e76574332ffa611031dc5fd92799b63a</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 00:28:42</sys_created_on>
+        <sys_id>eb653c332ffa611031dc5fd92799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_update_name>sp_column_eb653c332ffa611031dc5fd92799b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 00:28:42</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sp_column_eb653c332ffa611031dc5fd92799b61c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>4</order><size>3</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">e76574332ffa611031dc5fd92799b63a</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-21 00:28:42</sys_created_on><sys_id>eb653c332ffa611031dc5fd92799b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>4</sys_name><sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package><sys_policy/><sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope><sys_update_name>sp_column_eb653c332ffa611031dc5fd92799b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-21 00:28:42</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>297590247</payload_hash>
+        <record_name>4</record_name>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-21 00:28:42</sys_created_on>
+        <sys_id>e3653c332ffa611031dc5fd92799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883bb55ec70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-21 00:28:42</sys_updated_on>
+        <type>Column</type>
+        <update_guid>2f653c33c3fa611090b316c32226e31d</update_guid>
+        <update_guid_history>2f653c33c3fa611090b316c32226e31d:297590247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="4">1f845d4c2fcba11031dc5fd92799b64e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-21 21:23:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>10baaac81b6e44fcb1ab2194a2caa771</sys_id>
+        <sys_metadata>eb653c332ffa611031dc5fd92799b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sp_column_eb653c332ffa611031dc5fd92799b61c</sys_update_name>
+        <sys_update_version display_value="sp_column_eb653c332ffa611031dc5fd92799b61c">e3653c332ffa611031dc5fd92799b61e</sys_update_version>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-21 21:23:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

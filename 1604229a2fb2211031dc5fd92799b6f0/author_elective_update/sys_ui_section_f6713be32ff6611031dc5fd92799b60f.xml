@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="f6713be32ff6611031dc5fd92799b60f" sys_domain="global" table="x_1022112_yummie_packaging" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mea_ref_num</element>
+            <position>0</position>
+            <sys_created_by>evelyn.stewart</sys_created_by>
+            <sys_created_on>2023-05-20 19:31:50</sys_created_on>
+            <sys_id>83713be32ff6611031dc5fd92799b664</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1022112_yummie_packaging" sys_domain="global" view="Default view">f6713be32ff6611031dc5fd92799b60f</sys_ui_section>
+            <sys_updated_by>evelyn.stewart</sys_updated_by>
+            <sys_updated_on>2023-05-20 19:31:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1022112_yummie_packaging</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>evelyn.stewart</sys_created_by>
+            <sys_created_on>2023-05-20 19:31:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6713be32ff6611031dc5fd92799b60f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1022112_yummie_packaging</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+            <sys_update_name>sys_ui_section_f6713be32ff6611031dc5fd92799b60f</sys_update_name>
+            <sys_updated_by>evelyn.stewart</sys_updated_by>
+            <sys_updated_on>2023-05-20 19:31:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</application>
+        <file_path/>
+        <instance_id>622fe1a5db4bb7804d2bac44d4961998</instance_id>
+        <instance_name>dev90525</instance_name>
+        <name>sys_ui_section_f6713be32ff6611031dc5fd92799b60f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="f6713be32ff6611031dc5fd92799b60f" sys_domain="global" table="x_1022112_yummie_packaging" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>mea_ref_num</element><position>0</position><sys_created_by>evelyn.stewart</sys_created_by><sys_created_on>2023-05-20 19:31:50</sys_created_on><sys_id>83713be32ff6611031dc5fd92799b664</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1022112_yummie_packaging" sys_domain="global" view="Default view">f6713be32ff6611031dc5fd92799b60f</sys_ui_section><sys_updated_by>evelyn.stewart</sys_updated_by><sys_updated_on>2023-05-20 19:31:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1022112_yummie_packaging</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>evelyn.stewart</sys_created_by><sys_created_on>2023-05-20 19:31:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f6713be32ff6611031dc5fd92799b60f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1022112_yummie_packaging</sys_name><sys_overrides/><sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package><sys_policy/><sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope><sys_update_name>sys_ui_section_f6713be32ff6611031dc5fd92799b60f</sys_update_name><sys_updated_by>evelyn.stewart</sys_updated_by><sys_updated_on>2023-05-20 19:31:49</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-94308132</payload_hash>
+        <record_name>Packaging</record_name>
+        <reverted_from/>
+        <source>5204229a2fb2211031dc5fd92799b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-20 19:31:50</sys_created_on>
+        <sys_id>0f713be32ff6611031dc5fd92799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1883aa597290000001</sys_recorded_at>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 19:31:50</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>87713be358f6611006836a21ebe23e65</update_guid>
+        <update_guid_history>87713be358f6611006836a21ebe23e65:-94308132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>evelyn.stewart</sys_created_by>
+        <sys_created_on>2023-05-20 19:32:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>4481eefede744b5c95a50ae2b65d4b09</sys_id>
+        <sys_metadata>f6713be32ff6611031dc5fd92799b60f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Yummie" source="x_1022112_yummie">1604229a2fb2211031dc5fd92799b6f0</sys_package>
+        <sys_parent display_value="Packaging">3f6120a72ffa211031dc5fd92799b67a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Yummie">1604229a2fb2211031dc5fd92799b6f0</sys_scope>
+        <sys_scope_delete display_value="">2bfa961df22142ec97965554c434e764</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f6713be32ff6611031dc5fd92799b60f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f6713be32ff6611031dc5fd92799b60f">0f713be32ff6611031dc5fd92799b665</sys_update_version>
+        <sys_updated_by>evelyn.stewart</sys_updated_by>
+        <sys_updated_on>2023-05-20 19:32:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

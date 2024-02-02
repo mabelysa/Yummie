@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
-        <child display_value="Copy of Header Menu">d14ef1942f47211031dc5fd92799b6cd</child>
+        <child display_value="Yummie Header Menu">d14ef1942f47211031dc5fd92799b6cd</child>
         <cloned>2023-05-22 19:03:53</cloned>
         <last_validated>2023-05-22 19:03:53</last_validated>
         <parent display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</parent>
